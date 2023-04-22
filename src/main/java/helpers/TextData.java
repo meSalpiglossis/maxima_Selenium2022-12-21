@@ -12,6 +12,7 @@ public class TextData {
         InputStream is = TextData.class.getResourceAsStream("/text.properties");
         try {
             texts.load(is);
+            is.close();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -21,9 +22,6 @@ public class TextData {
         return texts.getProperty(tagName);
     }
 
-    public static void main(String[] args) {
-        System.out.println(TextData.get("JSAlertPage.H3header"));
-    }
 }
 
 
