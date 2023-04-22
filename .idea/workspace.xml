@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbf3b62-178a-4315-a7e4-8ba55a7c1ec0" name="Changes" comment="add .properties">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DragAndDropPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DragAndDropTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestBaseDrop.java" afterDir="false" />
+    <list default="true" id="abbf3b62-178a-4315-a7e4-8ba55a7c1ec0" name="Changes" comment="add DragAndDrop (not working)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/helpers/WebBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/WebBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/JSAlertPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/JSAlertPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DragAndDropPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DragAndDropPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/locators.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/locators.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/text.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DragAndDropTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DragAndDropTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBaseDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBaseDrop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,12 +153,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682166682776</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add DragAndDrop (not working)">
+      <created>1682181540813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682181540813</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="add .properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .properties" />
+    <MESSAGE value="add DragAndDrop (not working)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DragAndDrop (not working)" />
   </component>
 </project>

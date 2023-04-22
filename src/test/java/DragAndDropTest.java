@@ -14,6 +14,6 @@ public class DragAndDropTest extends TestBaseDrop{
 
         DragAndDropPage.moveAtoB();
 
-        assertTrue(DragAndDropPage.isA_on_B_position());
+        assertTrue(DragAndDropPage.isAonB());
     }
 }

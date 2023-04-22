@@ -10,28 +10,18 @@ import static helpers.WebBrowser.webBrowser;
 
 public class DragAndDropPage extends PageBase {
 
-    private static final String H3_HEADER_EXPECTED = TextData.get("DragAndDropPage.H3header");
 
-    private static final By H3_HEADER_ACTUAL = Locators.get("DragAndDropPage.h3header.top");
-    private static final WebElement SQUARE_A = webBrowser().findElement(Locators.get("DragAndDropPage.squareA"));
-    private static final WebElement SQUARE_B = webBrowser().findElement(Locators.get("DragAndDropPage.squareB"));
+    private static final WebElement ELEMENT_A = webBrowser().findElement(Locators.get("DragAndDropPage.elementA"));
+    private static final WebElement ELEMENT_B = webBrowser().findElement(Locators.get("DragAndDropPage.elementB"));
 
     private static Actions builder = new Actions(webBrowser());
 
     // NOT WORKING
     public static void moveAtoB() {
-        builder.dragAndDrop(SQUARE_A, SQUARE_B).perform();
+        builder.dragAndDrop(ELEMENT_A, ELEMENT_B).perform();
     }
 
-    public static boolean isA_on_B_position() {
-        return true;
-    }
-
-    public static boolean isB_on_A_position() {
-        return true;
-    }
-
-    public static boolean isProperH3HeaderPresented() {
-        return webBrowser().findElement(H3_HEADER_ACTUAL).getText().contains(H3_HEADER_EXPECTED);
+    public static boolean isAonB() {
+        return webBrowser().findElement(Locators.get("DragAndDropPage.elementB.pink")).isDisplayed();
     }
 }
