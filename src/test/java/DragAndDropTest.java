@@ -1,10 +1,9 @@
 import org.testng.annotations.Test;
 
-import static helpers.WebBrowser.webBrowser;
 import static org.testng.Assert.assertTrue;
 
 import pages.DragAndDropPage;
-import pages.MainPage;
+
 
 
 public class DragAndDropTest extends TestBaseDrop{
