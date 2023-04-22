@@ -12,7 +12,7 @@ public class DragAndDropTest extends TestBaseDrop{
     @Test(timeOut = 10000)
     public void dragAndDropAtoB() {
 
-        DragAndDropPage.moveAtoB();
+        DragAndDropPage.moveBalltoGoal();
 
         assertTrue(DragAndDropPage.isAonB());
     }
