@@ -19,7 +19,7 @@ public class DragAndDropPage extends PageBase {
         builder.dragAndDrop(BALL, GOAL).perform();
     }
 
-    public static boolean isAonB() {
+    public static boolean isGoalPink() {
         return webBrowser().findElement(Locators.get("DragAndDropPage.goal.pink")).isDisplayed();
     }
 }

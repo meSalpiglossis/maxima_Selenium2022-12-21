@@ -13,6 +13,6 @@ public class DragAndDropTest extends TestBaseDrop{
 
         DragAndDropPage.moveBalltoGoal();
 
-        assertTrue(DragAndDropPage.isAonB());
+        assertTrue(DragAndDropPage.isGoalPink());
     }
 }
