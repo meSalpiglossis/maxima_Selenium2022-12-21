@@ -3,6 +3,9 @@ package helpers;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxBinary;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.Browser;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
@@ -25,8 +28,11 @@ public class WebBrowser {
                     driver = new ChromeDriver();
                     break;
                 case firefox:
-                    caps.setBrowserName(Browser.FIREFOX.browserName());
-//                    driver = new FirefoxDriver();
+//                    caps.setBrowserName(Browser.FIREFOX.browserName());
+                    FirefoxBinary firefoxBinary = new FirefoxBinary();
+                    FirefoxOptions firefoxOptions = new FirefoxOptions();
+                    firefoxOptions.setBinary(firefoxBinary);
+                    driver = new FirefoxDriver(firefoxOptions);
                     break;
             }
 

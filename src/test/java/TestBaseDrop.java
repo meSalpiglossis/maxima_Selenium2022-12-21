@@ -5,9 +5,9 @@ import static helpers.WebBrowser.closeWebBrowser;
 import static helpers.WebBrowser.webBrowser;
 
 
-public class TestBase {
+public class TestBaseDrop {
 
-    String testURL = "https://the-internet.herokuapp.com/";
+    String testURL = "https://jqueryui.com/droppable/#default";
 
     @BeforeMethod
     void openAppInChromeBrowser() {
@@ -15,8 +15,8 @@ public class TestBase {
         webBrowser().get(testURL);
     }
 
-//    @AfterMethod
-//    void driverQuit() {
-//        closeWebBrowser();
-//    }
+    @AfterMethod
+    void driverQuit() {
+        closeWebBrowser();
+    }
 }
