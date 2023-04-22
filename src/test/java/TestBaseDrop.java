@@ -14,9 +14,9 @@ public class TestBaseDrop {
         System.setProperty("webdriver.http.factory", "jdk-http-client");
         webBrowser().get(testURL);
     }
-//
-//    @AfterMethod
-//    void driverQuit() {
-//        closeWebBrowser();
-//    }
+
+    @AfterMethod
+    void driverQuit() {
+        closeWebBrowser();
+    }
 }
