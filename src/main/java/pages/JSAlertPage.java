@@ -24,7 +24,7 @@ public class JSAlertPage extends PageBase{
     private static final By H3_HEADER_ACTUAL = Locators.get("JSAlertPage.h3header.top");
 
     public static boolean isProperH3HeaderPresented() {
-        return webBrowser().findElement(H3_HEADER_ACTUAL).getText().contains(H3_HEADER_EXPECTED);
+        return isProperH3HeaderPresented(H3_HEADER_ACTUAL, H3_HEADER_EXPECTED);
     }
 
     public static void clickJSAlertButton() {

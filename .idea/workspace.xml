@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abbf3b62-178a-4315-a7e4-8ba55a7c1ec0" name="Changes" comment="add DragAndDrop (working partly)">
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/WebBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/WebBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DragAndDrop2Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DragAndDrop2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestBaseDrop2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DragAndDropPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DragAndDropPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/JSAlertPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/JSAlertPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/locators.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/locators.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DragAndDropTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DragAndDropTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +65,19 @@
       <recent name="G:\Мой диск (djacidk@gmail.com)\Work\Programming\JAVA\PROJECTS\maxima_Selenium2022-12-21\src\main\java\pages" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages" />
       <recent name="" />
       <recent name="helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DragAndDropTest.dragAndDropAtoB">
-    <configuration name="MyTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTestClass" />
+  <component name="RunManager" selected="TestNG.DragAndDrop2Test">
+    <configuration name="DragAndDrop2Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="maxima_Selenium2022-12-21" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DragAndDrop2Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DragAndDrop2Test" />
         <item itemvalue="TestNG.DragAndDropTest.dragAndDropAtoB" />
         <item itemvalue="TestNG.DragAndDropTest" />
         <item itemvalue="TestNG.JSAlertTest" />
         <item itemvalue="TestNG.DragAndDropTest.mainPageReachTest" />
-        <item itemvalue="Application.MyTestClass" />
       </list>
     </recent_temporary>
   </component>

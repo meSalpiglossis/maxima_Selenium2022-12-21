@@ -8,10 +8,10 @@ import pages.DragAndDropPage;
 
 public class DragAndDropTest extends TestBaseDrop{
 
-    @Test(timeOut = 10000)
+    @Test(timeOut = 5000)
     public void dragAndDropAtoB() {
 
-        DragAndDropPage.moveBalltoGoal();
+        DragAndDropPage.moveBallToGoal();
 
         assertTrue(DragAndDropPage.isGoalPink());
     }

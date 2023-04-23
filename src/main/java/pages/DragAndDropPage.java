@@ -11,15 +11,15 @@ public class DragAndDropPage extends PageBase {
 
     private static final WebElement BALL = webBrowser().findElement(Locators.get("DragAndDropPage.ball"));
     private static final WebElement GOAL = webBrowser().findElement(Locators.get("DragAndDropPage.goal"));
+    private static final WebElement GOAL_PINK = webBrowser().findElement(Locators.get("DragAndDropPage.goal.pink"));
 
     private static Actions builder = new Actions(webBrowser());
 
-    // NOT WORKING
-    public static void moveBalltoGoal() {
+    public static void moveBallToGoal() {
         builder.dragAndDrop(BALL, GOAL).perform();
     }
 
     public static boolean isGoalPink() {
-        return webBrowser().findElement(Locators.get("DragAndDropPage.goal.pink")).isDisplayed();
+        return GOAL_PINK.isDisplayed();
     }
 }
