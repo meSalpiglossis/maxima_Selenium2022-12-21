@@ -13,10 +13,10 @@ public class DragAndDropPage extends PageBase {
     private static final WebElement GOAL = webBrowser().findElement(Locators.get("DragAndDropPage.goal"));
     private static final WebElement GOAL_PINK = webBrowser().findElement(Locators.get("DragAndDropPage.goal.pink"));
 
-    private static Actions builder = new Actions(webBrowser());
+    private static Actions doThe = new Actions(webBrowser());
 
     public static void moveBallToGoal() {
-        builder.dragAndDrop(BALL, GOAL).perform();
+        doThe.dragAndDrop(BALL, GOAL).perform();
     }
 
     public static boolean isGoalPink() {
