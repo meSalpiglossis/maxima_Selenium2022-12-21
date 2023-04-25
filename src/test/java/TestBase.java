@@ -10,13 +10,13 @@ public class TestBase {
     String testURL = "https://the-internet.herokuapp.com/";
 
     @BeforeMethod
-    void openAppInChromeBrowser() {
+    public void openAppInChromeBrowser() {
         System.setProperty("webdriver.http.factory", "jdk-http-client");
         webBrowser().get(testURL);
     }
 
-//    @AfterMethod
-//    void driverQuit() {
-//        closeWebBrowser();
-//    }
+    @AfterMethod
+    public void driverQuit() {
+        closeWebBrowser();
+    }
 }
