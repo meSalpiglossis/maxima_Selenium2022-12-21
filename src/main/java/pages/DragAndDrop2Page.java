@@ -14,10 +14,10 @@ public class DragAndDrop2Page extends PageBase {
 
     private static final String SUCCESS_TEXT_EXPECTED = "Dropped!";
 
-    private static Actions builder = new Actions(webBrowser());
+    private static Actions doThe = new Actions(webBrowser());
 
     public static void moveSmallSquareToBigSquare() {
-        builder.dragAndDrop(SQUARE_SMALL, SQUARE_BIG).perform();
+        doThe.dragAndDrop(SQUARE_SMALL, SQUARE_BIG).perform();
     }
 
     public static boolean successTextPresented() {
