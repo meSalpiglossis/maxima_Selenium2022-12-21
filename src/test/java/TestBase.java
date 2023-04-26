@@ -4,7 +4,6 @@ import org.testng.annotations.BeforeMethod;
 import static helpers.WebBrowser.closeWebBrowser;
 import static helpers.WebBrowser.webBrowser;
 
-
 public class TestBase {
 
     String testURL = "https://the-internet.herokuapp.com/";
