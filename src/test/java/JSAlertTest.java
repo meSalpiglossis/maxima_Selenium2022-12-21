@@ -1,3 +1,4 @@
+import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertTrue;
@@ -7,8 +8,11 @@ import pages.MainPage;
 
 public class JSAlertTest extends TestBase {
 
+    Logger LOG = Logger.getLogger(JSAlertTest.class);
+
     @Test(timeOut = 5000)
     public void mainPageReachTest() {
+        LOG.info("Testing mainPageReachTest");
         assertTrue(MainPage.titleIsPresented());
     }
 
