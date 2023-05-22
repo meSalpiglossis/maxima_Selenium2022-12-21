@@ -1,8 +1,9 @@
 package pages;
 
+import org.openqa.selenium.By;
+
 import helpers.Locators;
 import helpers.TextData;
-import org.openqa.selenium.By;
 
 import static helpers.WebBrowser.webBrowser;
 
