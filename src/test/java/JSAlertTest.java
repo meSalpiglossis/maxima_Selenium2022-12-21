@@ -19,7 +19,7 @@ public class JSAlertTest extends TestBase {
         assertTrue(JSAlertPage.isProperH3HeaderPresented());
     }
 
-    @Test(timeOut = 5000, dependsOnMethods = "javaScriptAlertsPageReachTest")
+    @Test(timeOut = 5000)
     public void javaScriptAlertsPageJSAlertTest() {
         MainPage.clickJavaScriptAlertsLink();
 
@@ -32,7 +32,7 @@ public class JSAlertTest extends TestBase {
         assertTrue(JSAlertPage.isProperJSAlertResult());
     }
 
-    @Test(timeOut = 5000, dependsOnMethods = "javaScriptAlertsPageReachTest")
+    @Test(timeOut = 5000)
     public void javaScriptAlertsPageJSConfirmTest() {
         MainPage.clickJavaScriptAlertsLink();
 
